@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav class="navbar">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fa fa-bars"></i>
+                    </label>
+                    <a href="layout.html"><img src="img/logo.jpeg" class="logo"></a>
+                    <ul class="navbar-links">
+                        <li class="menu"><a href="layout.html">Home</a></li>
+                        <li class="menu"><a href="limas.html">Limas de cristal</a></li>
+                        <li class="menu"><a href="coleccion.html">Coleccion Westyle</a></li>
+                        <li class="menu"><a href="nosotros.html">Nosotros</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="payment-container">
+            <form action="" onsubmit="avoidEmpty()">
+                <div class="payment-row">
+                    <div class="payment-col">
+                        <h3 class="title">Billing address</h3>
+
+                        <div class="inputBox">
+                            <span>Nombre Completo: </span>
+                            <input type="text" id="fname" placeholder="john doe">
+                        </div>
+                        <div class="inputBox">
+                            <span>Email: </span>
+                            <input type="text" id="fname" placeholder="westyle@example.com">
+                        </div>
+                        <div class="inputBox">
+                            <span>Direccion: </span>
+                            <input type="text" id="fname" placeholder="Numero - Calle - Ciudad">
+                        </div>
+                        <div class="inputBox">
+                            <span>Ciudad :</span>
+                            <input type="text" id="fname" placeholder="Lima">
+                        </div>
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>Distrito :</span>
+                                <input type="text" id="fname" placeholder="Miraflores">
+                            </div>
+                            <div class="inputBox">
+                                <span>Codigo Postal :</span>
+                                <input type="text" id="fname" placeholder="15047">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="payment-col">
+                        <h3 class="title">Pago</h3>
+
+                        <div class="inputBox">
+                            <span>Metodos de Pago : </span>
+                            <img src="img/card_img.png" alt="">
+                        </div>
+                        <div class="inputBox">
+                            <span>Propietario de la tarjeta: </span>
+                            <input type="text" id="fname" placeholder="John doe">
+                        </div>
+                        <div class="inputBox">
+                            <span>Numero de tarjeta: </span>
+                            <input type="text" id="fname" placeholder="1111-2222-3333-4444">
+                        </div>
+                        <div class="inputBox">
+                            <span>Año de expiracion :</span>
+                            <input type="number" id="fname" placeholder="2022">
+                        </div>
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>Mes de expiracion :</span>
+                                <input type="number" id="fname" placeholder="11">
+                            </div>
+                            <div class="inputBox">
+                                <span>CVV :</span>
+                                <input type="number" id="fname" placeholder="123">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="submit" value="Proceder al checkout" class="submit-btn">
+            </form>
+        </div>
+
+
+
+
+
+
+        <footer>
+            <div class="footer-content">
+                <h3>westyle</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2022 Westyle. designed by <span>weston</span></p>
+            </div>
+        </footer>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
